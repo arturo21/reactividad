@@ -1,0 +1,16 @@
+{
+  "name": "reactive.js",
+  "version": "1.0.0",
+  "description": "Librería Reactiva Creada para General.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "libreria",
+    "reactiva",
+    "general.js"
+  ],
+  "author": "Arturo Vásquez",
+  "license": "MIT"
+}
