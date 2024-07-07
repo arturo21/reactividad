@@ -8,17 +8,13 @@ class Reactive {
     });
     this._callbacks = [];
   }
-
   get value() {
     return this._value;
   }
-
   subscribe(callback) {
     this._callbacks.push(callback);
   }
-
   notify() {
     this._callbacks.forEach(callback => callback(this._value));
   }
-
 }
